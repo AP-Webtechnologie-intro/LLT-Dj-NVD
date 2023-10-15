@@ -1,0 +1,23 @@
+mijn notities over de langlopende taak
+
+onderwerp: het zelf hosten van een mediaserver/ homelab mediaservers 
+
+ik ga beginnen met foto's enz te verzamelen in een mapje /media
+
+
+
+De mappenstructuur
+index.html #dit zal de hoofdpagina worden met uitleg wat selfhosten eigenlijk is 
+overzicht #uitleg wat opties zijn en hoe ik het heb gedaan met links naar alle paginas hieronder
+-   de populairste opties
+--      plex
+--      jellyfin
+--      emby
+-   mijn installatie
+--      mijn server en netwerk
+--      mijn software
+--      een domein en cloudflare
+-contactpagina
+
+
+de API die ik hierbij gebruik kan zijn de open subtitles api of de omdb API 
