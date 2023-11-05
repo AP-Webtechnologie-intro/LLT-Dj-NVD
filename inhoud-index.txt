@@ -80,3 +80,122 @@ Netflix, Disney+ en andere streamingdiensten:
 Hoewel sommige diensten offline downloads aanbieden, zijn deze vaak beperkt tot specifieke apparaten en tijdsbeperkingen.
 
 Dit zijn enkele van de belangrijkste verschillen tussen zelfgehoste mediaservers en populaire streamingdiensten. De keuze tussen beide hangt af van je persoonlijke voorkeuren en behoeften. Blijf onze website verkennen voor meer gedetailleerde informatie en inzichten om je te helpen de juiste beslissing te nemen.
+Plex: De Ultieme Zelfgehoste Mediaserver
+
+Plex is een naam die velen van jullie wellicht al kennen, en met goede reden. Deze zelfgehoste mediaserver is de belichaming van gebruiksvriendelijkheid en functionaliteit. Als je op zoek bent naar de perfecte oplossing om je eigen mediabibliotheek te organiseren, te streamen en te delen, dan is Plex een uitstekende keuze.
+
+Wat maakt Plex zo bijzonder? Hier zijn enkele van de belangrijkste kenmerken die Plex tot een favoriet maken onder mediaserverliefhebbers:
+
+1. Gebruiksvriendelijke Interface: Plex heeft een intuïtieve en aantrekkelijke gebruikersinterface die het gemakkelijk maakt om je media te verkennen. Het is toegankelijk voor gebruikers van alle ervaringsniveaus.
+
+2. Uitgebreide Functionaliteiten: Plex biedt een breed scala aan functionaliteiten, waaronder krachtige transcoderingsopties. Hiermee kun je je media soepel afspelen op verschillende apparaten zonder kwaliteitsverlies.
+
+3. Plug-ins en Add-ons: Een van de meest opwindende aspecten van Plex is de mogelijkheid om duizenden plug-ins en add-ons toe te voegen. Hiermee kun je de functionaliteit van Plex aanpassen en uitbreiden op basis van je specifieke behoeften.
+
+4. Media Delen: Plex maakt het gemakkelijk om je media te delen met vrienden en familie, waar ze zich ook bevinden. Je kunt specifieke mappen en content delen met anderen, zodat ze kunnen genieten van jouw collectie.
+
+5. Synchronisatie: Met Plex kun je je media synchroniseren en offline bekijken. Dit is handig voor die momenten waarop je geen internetverbinding hebt, zoals op reis of in afgelegen gebieden.
+
+Plex biedt de perfecte balans tussen functionaliteit en toegankelijkheid, en het is een uitstekende keuze voor iedereen die volledige controle wil over zijn mediabibliotheek. Of je nu een beginnende gebruiker bent of een doorgewinterde mediaserver-enthousiasteling, Plex heeft alles wat je nodig hebt om je media-ervaring te optimaliseren.
+
+Ontdek de wereld van Plex en ervaar de vrijheid om je favoriete content op jouw voorwaarden te beheren en te streamen. Op onze website vind je gedetailleerde gidsen en tutorials om je op weg te helpen met Plex en de vele mogelijkheden die het te bieden heeft.
+
+Laat Plex jouw mediabeleving naar een hoger niveau tillen en geniet van de revolutie van zelfgehoste mediaservers!
+
+
+
+Zeker, hier is een tekstje dat je op de 'Jellyfin'-pagina van je website kunt plaatsen om meer informatie te geven over Jellyfin:
+
+Jellyfin: Het Open-Source Alternatief voor Mediaservers
+
+Jellyfin is een opwindende naam in de wereld van zelfgehoste mediaservers en biedt een geheel nieuwe benadering van het beheren en streamen van je persoonlijke media-inhoud. Als je de vrijheid wilt om je eigen mediabibliotheek te beheren zonder beperkingen en kosten, dan is Jellyfin het overwegen waard.
+
+Wat maakt Jellyfin zo speciaal? Hier zijn enkele van de kenmerken die Jellyfin onderscheiden:
+
+1. Open Source: Jellyfin is een open-source platform, wat betekent dat het volledig gratis is en voortdurend wordt ontwikkeld en verbeterd door een gemeenschap van toegewijde ontwikkelaars.
+
+2. Aanpasbaarheid: Met Jellyfin heb je volledige controle over hoe je mediabibliotheek wordt georganiseerd en weergegeven. Pas het aan met thema's en extensies om het aan te passen aan jouw persoonlijke voorkeuren.
+
+3. Diverse Apparaatondersteuning: Jellyfin ondersteunt een breed scala aan apparaten, waaronder smartphones, tablets, smart-tv's, en meer. Hierdoor kun je je media overal en altijd bekijken.
+
+4. Live TV: Naast het beheren van je eigen media-inhoud, biedt Jellyfin zelfs ondersteuning voor live-tv, waardoor het een all-in-one oplossing is voor al je entertainmentbehoeften.
+
+5. Gemeenschap: De Jellyfin-gemeenschap is actief en behulpzaam. Je kunt rekenen op ondersteuning en discussies binnen de gemeenschap om het meeste uit je Jellyfin-ervaring te halen.
+
+Jellyfin combineert de voordelen van open-source software met een krachtige mediaserver die je volledige controle geeft over je eigen content. Het is ideaal voor degenen die waarde hechten aan onafhankelijkheid en aanpasbaarheid.
+
+Verken de mogelijkheden van Jellyfin en geniet van een media-ervaring die precies past bij jouw wensen. Op onze website vind je gedetailleerde gidsen en tutorials om je te helpen bij het opzetten en optimaliseren van je Jellyfin-mediaserver.
+
+Laat Jellyfin je leiden naar een nieuwe wereld van mediabeheer en streaming, en ontdek waarom dit open-source alternatief steeds meer liefhebbers van zelfgehoste mediaservers aantrekt!
+
+
+Maar wat betekent "open source" eigenlijk?
+
+Open Source Betekent Vrijheid: In de wereld van software betekent "open source" dat de broncode van de software vrij beschikbaar is voor iedereen. Dit heeft verschillende belangrijke voordelen:
+
+1. Gratis Gebruik: Omdat Jellyfin open source is, kun je het gratis downloaden en gebruiken. Er zijn geen kosten verbonden aan het bezitten of gebruiken van Jellyfin.
+
+2. Gemeenschapsontwikkeling: Open-source projecten zoals Jellyfin worden ontwikkeld en verbeterd door een gemeenschap van vrijwillige ontwikkelaars van over de hele wereld. Dit betekent dat de software voortdurend wordt bijgewerkt en verbeterd.
+
+3. Aanpasbaarheid: Omdat de broncode openbaar is, kun je Jellyfin aanpassen aan je specifieke behoeften. Ontwikkelaars kunnen nieuwe functies toevoegen en bestaande functionaliteiten aanpassen.
+
+4. Transparantie: Met open source kun je de code inspecteren om ervoor te zorgen dat er geen verborgen functies of beveiligingsproblemen zijn. Dit geeft gebruikers gemoedsrust.
+
+Jellyfin combineert de voordelen van open-source software met een krachtige mediaserver die je volledige controle geeft over je eigen content. Het is ideaal voor degenen die waarde hechten aan onafhankelijkheid, aanpasbaarheid en de vrijheid om hun mediabeleving vorm te geven.
+
+Verken de mogelijkheden van Jellyfin en ontdek waarom dit open-source alternatief steeds meer liefhebbers van zelfgehoste mediaservers aantrekt. Op onze website vind je gedetailleerde gidsen en tutorials om je te helpen bij het opzetten en optimaliseren van je Jellyfin-mediaserver. Laat Jellyfin je leiden naar een nieuwe wereld van mediabeheer en streaming!
+
+
+
+Emby: De Elegantie van Mediaservers
+
+Emby is een mediaserver die bekendstaat om zijn verfijnde en gestroomlijnde interface, waarmee het een unieke plaats inneemt in de wereld van zelfgehoste mediaservers. Als je op zoek bent naar een oplossing waarmee je je media kunt organiseren, synchroniseren en streamen naar al je apparaten, waar je ook bent, dan is Emby een uitstekende keuze.
+
+Wat maakt Emby zo bijzonder? Hier zijn enkele van de kenmerken die Emby onderscheiden:
+
+1. Elegant en Gebruiksvriendelijk: Emby staat bekend om zijn elegante en intuïtieve interface, waardoor het gemakkelijk is om je mediabibliotheek te beheren en te verkennen.
+
+2. Media-organisatie: Emby biedt uitgebreide tools voor het organiseren van je media-inhoud, zodat je snel en gemakkelijk kunt vinden wat je zoekt.
+
+3. Synchronisatie: Met Emby kun je je media synchroniseren en streamen naar al je apparaten, inclusief smartphones, tablets en smart-tv's. Zo heb je altijd toegang tot je content.
+
+4. Offline Toegang: Een handige functie van Emby is de mogelijkheid om je media te downloaden en offline te bekijken. Dit is ideaal voor reizen en gebieden met beperkte internettoegang.
+
+Emby biedt een slanke en geavanceerde oplossing voor het beheren en genieten van je media. Het is de perfecte keuze voor degenen die waarde hechten aan elegantie en een naadloze mediabeleving.
+
+Ontdek de mogelijkheden van Emby en leer hoe je je media kunt organiseren en streamen zoals nooit tevoren. Op onze website vind je gedetailleerde gidsen en tutorials om je op weg te helpen met Emby en om het meeste uit deze elegante mediaserver te halen.
+
+Laat Emby je leiden naar een nieuwe wereld van mediabeheer en streaming, en ontdek waarom het zo geliefd is onder liefhebbers van zelfgehoste mediaservers!
+
+
+
+
+
+
+Mijn Zelfgehoste Mediaserver Setup: Een Diepgaande Kijk op Mijn Mediatechnologie
+
+Welkom in mijn digitale wereld, waar technologie en passie samenkomen om een zelfgehoste mediaserver-setup te creëren die me in staat stelt om volledige controle te hebben over mijn mediabibliotheek en het afspelen van content. Als een enthousiaste gebruiker van het zwaarste Telenet-abonnement, heb ik de snelheid en bandbreedte om mijn mediaserver-ervaring naar een hoger niveau te tillen. Maar laten we eens dieper ingaan op mijn setup, die draait om flexibiliteit, beheer en beveiliging.
+
+Mijn Internetconnectiviteit: Telenet en de Wens voor Een Tweede Fiber Aansluiting
+
+Mijn reis begint met mijn internetconnectiviteit. Als gebruiker van het zwaarste Telenet-abonnement, geniet ik van indrukwekkende snelheden en betrouwbaarheid, waardoor het streamen van mijn media vlekkeloos verloopt. Maar om de redundantie en betrouwbaarheid te vergroten, overweeg ik serieus een tweede fiber-aansluiting. Dit zou zorgen voor ononderbroken toegang tot mijn media, zelfs als er zich problemen voordoen met de primaire verbinding. Mijn Unifi gateway biedt me de flexibiliteit om dual WAN te configureren, zodat ik naadloos kan overschakelen tussen mijn bestaande verbinding en mijn toekomstige fiberlijn.
+
+Hardware: Oude HP Computer en Synology NAS
+
+Mijn mediaserver begon op een oude HP-computer met Windows Server 2022 als besturingssysteem. Deze computer heeft zich bewezen als een betrouwbare werkpaard die al mijn media- en serverbehoeften kan behandelen. Als aanvulling daarop maak ik gebruik van een Synology NAS om mijn media op te slaan. Dit biedt de nodige redundantie en back-upmogelijkheden om ervoor te zorgen dat mijn media altijd veilig en beschikbaar is.
+
+Op dit moment ben ik ook bezig met het opknappen van een oude gaming-pc om over te schakelen van de HP-computer. Deze nieuwe configuratie zal me nog meer kracht en flexibiliteit bieden in mijn mediaserveromgeving.
+
+Netwerk: Ubiquiti Unifi Ecosysteem met Dual WAN-ondersteuning
+
+Voor mijn netwerkinfrastructuur vertrouw ik volledig op het Ubiquiti Unifi-ecosysteem. Dit omvat switches en access points die naadloos samenwerken om een robuust en betrouwbaar netwerk te bieden. Bovendien gebruik ik een Unifi Cloud Key om mijn netwerk centraal te beheren en te monitoren. Deze combinatie van hardware heeft me de stabiliteit en prestaties gegeven die ik nodig heb voor een soepele mediastreamingervaring. Dankzij mijn Unifi gateway met dual WAN-ondersteuning kan ik snel en naadloos overschakelen tussen mijn huidige verbinding en mijn toekomstige fiberlijn voor nog betere prestaties en betrouwbaarheid.
+
+Software: Windows Server 2022 en Jellyfin
+
+Op mijn Windows Server 2022 draai ik verschillende services en applicaties, waarbij Jellyfin de kroonjuweel is. Jellyfin fungeert als mijn mediaserverplatform en biedt een uitgebreide set functies voor het beheren en streamen van mijn media-inhoud. Maar ik gebruik mijn server ook voor andere taken, zoals gegevensback-ups en lichte virtualisatie.
+
+Beveiliging en Toegang: Cloudflare Domein en Zero Trust Tunnels
+
+Om mijn mediaserver veilig en toegankelijk te houden, heb ik een domeinnaam bij Cloudflare geregistreerd. Dit maakt het eenvoudig om mijn server te bereiken, zelfs als mijn IP-adres verandert. Wat de beveiliging betreft, gebruik ik de Cloudflare Zero Trust Tunnels om poorten niet open te hoeven zetten. Dit zorgt voor een extra beveiligingslaag, waardoor mijn server beschermd blijft tegen potentiële bedreigingen.
+
+Kortom, mijn zelfgehoste mediaserver-setup is een voortdurend evoluerend project dat draait om snelheid, betrouwbaarheid, flexibiliteit en beveiliging. Het stelt me in staat om volledige controle te hebben over mijn mediabibliotheek en biedt een naadloze en gepersonaliseerde streamingervaring die ik met trots deel met vrienden en familie. Mijn reis in de wereld van zelfgehoste mediaservers gaat door, en ik ben altijd op zoek naar manieren om mijn setup te optimaliseren en te verbeteren. Welkom in mijn digitale wereld!
