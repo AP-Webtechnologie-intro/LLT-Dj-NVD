@@ -1,0 +1,16 @@
+/* nvdstyle.css */
+.mijnblauwrandje {
+  margin-bottom: 20px;
+  border: 2px solid #007BFF; /* Blauw randje */
+  border-radius: 10px; /* Afgeronde hoeken */
+}
+
+h1 {
+  color: #007BFF; /* Blauwe tekstkleur voor H1 */
+  font-size: 2.5rem; /* Aangepaste tekstgrootte voor H1 */
+}
+
+h4 {
+  color: #6c757d; /* Grijze tekstkleur voor H4 */
+  font-size: 1.25rem; /* Aangepaste tekstgrootte voor H4 */
+}

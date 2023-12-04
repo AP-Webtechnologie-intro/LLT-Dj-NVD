@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noah's Mediaserver.</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="nvdstyle.css">
+
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mt-5">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="/media/wolf profielfoto.jpeg" width="45" height="45" class="d-inline-block align-top" alt="mijn eigen logo" loading="lazy" href="/index.html">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent2">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/index.html">Main Page</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">wat is een mediaserver?</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                  eigen mediaservers
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                  <li><a class="dropdown-item" href="/plex.html">Plex</a></li>
+                  <li><a class="dropdown-item" href="/jellyfin.html">Jellyfin</a></li>
+                  <li><a class="dropdown-item" href="/emby.html">Emby</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  grote spelers
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                  <li><a class="dropdown-item" href="/netflix.html">Netflix</a></li>
+                  <li><a class="dropdown-item" href="/disneyplus.html">Disney plus</a></li>
+                  <li><a class="dropdown-item" href="/streamz.html">Streamz</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/eigenspullen.html" tabindex="-1" aria-disabled="false">mijn installatie</a>
+              </li>
+              <li class="nav-item">
+                <a class=nav-link href="/contact.html" tabindex="-1">contacteer me </a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="de beste server ooit" aria-label="Zoeken" spellcheck="false" data-ms-editor="true">
+              </form>
+     </nav>
+     <div class="container mt-4 d-flex flex-column justify-content-center align-items-center">
+        <h1>Dit is mijn installatie.</h1>
+        <h4>niks is perfect. en zeker hier niet, maar wat werkt, dat werkt :)</h4>
+    </div>
+    
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card custom-card mijnblauwrandje">
+          <img class="card-img-top img-fluid" src="/media/eigeninstallatie/mymodem.jpg" alt="een foto van mijn internetmodem">
+          <div class="card-body">
+            <p class="card-text">Het begint (of eindigt) bij de modem. Ik gebruik Telenet om verbinding te maken met het internet. Niets speciaals, want ik gebruik andere dingen om mijn lokaal netwerk op te bouwen.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card custom-card mijnblauwrandje">
+          <img class="card-img-top img-fluid" src="/media/eigeninstallatie/mygateway.jpg" alt="een foto van mijn gateway en een switch">
+          <div class="card-body">
+            <p class="card-text">Dit is mijn router/gateway. Van Telenet krijg ik een publiek IP dat ik gebruik om mijn servers naar de buitenwereld te brengen, en natuurlijk ook om gewoon te surfen. Verder is het kleine apparaatje met een scherm mijn Cloudkey, die dient om mijn netwerk te beheren, denk aan acces points en switch vlans aanpassen.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card custom-card mijnblauwrandje">
+          <img class="card-img-top img-fluid" src="/media/eigeninstallatie/myserver.jpg" alt="een foto van mijn serverkast">
+          <div class="card-body">
+            <p class="card-text">De echte mediaserver draait op deze HP computer op mijn zolder. Al sinds 2018(!) staat deze bijna elke dag aan om mijn services te draaien.</p>
+            <p class="card-text">Op deze pc draaien onder andere Jellyfin, een Minecraft server, en een DNS server genaamd AdGuard Home.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <!-- Herhaal dit patroon voor andere secties -->
+        <div class="card custom-card mijnblauwrandje">
+          <img class="card-img-top img-fluid" src="/media/eigeninstallatie/mysynology.jpg" alt="een foto van mijn NAS">
+          <div class="card-body">
+            <p class="card-text">Voor de opslag van mijn films en series gebruik ik een NAS van Synology. Hiermee kan mijn server via het netwerk de films ophalen die ik wil zien via Jellyfin.</p>
+            <p class="card-text">Ik gebruik mijn NAS ook voor de centrale backups van het gezin, denk aan smartphone foto's of bestanden op computers.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card custom-card mijnblauwrandje">
+          <img class="card-img-top img-fluid" src="/media/eigeninstallatie/screenshot-desktopSERVER.png" alt="een schermafbeelding van het bureaublad van mijn server">
+          <div class="card-body">
+            <p class="card-text">Dit is het bureaublad van mijn server. Niets speciaals, ik gebruik extern bureaublad om mijn server te beheren omdat altijd op de zolder kruipen niet ideaal is.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card custom-card mijnblauwrandje">
+          <img class="card-img-top img-fluid" src="/media/eigeninstallatie/screenshot-jellyfin.png" alt="een schermafbeelding van de login van Jellyfin - tv.noahvd.be">
+          <div class="card-body">
+            <p class="card-text">Dit is de loginpagina van Jellyfin. Mijn filmsmaak verklap ik hier niet.</p>
+            <p class="card-text">Ik gebruik Jellyfin omdat ik zelf een beetje tegen het grote idee van Plex ben met de openbare bibliotheken, en omdat ik graag opensource dingen draai. Lekker goedkoop.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body
+</html>
