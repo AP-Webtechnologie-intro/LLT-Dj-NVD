@@ -56,7 +56,43 @@
               </form>
      </nav>
     <H1 class="center">contactpagina </H1>
+    <div class="container mt-4">
+      <h1 class="text-center">Contacteer ons</h1>
 
+      <!-- Contactformulier voor de 'admin' -->
+      <section id="admin-contact">
+          <h2 class="mt-4">Contacteer de Admin</h2>
+          <form>
+              <!-- ... (formulierinvoervelden voor de 'admin') ... -->
+          </form>
+      </section>
+
+      <!-- Contactformulier voor de 'webdesigner' -->
+      <section id="webdesigner-contact">
+        <h2 class="mt-4">Contacteer de Webdesigner</h2>
+        <form>
+            <div class="mb-3">
+                <label for="webdesigner-naam" class="form-label">Naam</label>
+                <input type="text" class="form-control" id="webdesigner-naam" required>
+            </div>
+            <div class="mb-3">
+                <label for="webdesigner-email" class="form-label">E-mailadres</label>
+                <input type="email" class="form-control" id="webdesigner-email" required>
+            </div>
+            <div class="mb-3">
+                <label for="webdesigner-bericht" class="form-label">Bericht</label>
+                <textarea class="form-control" id="webdesigner-bericht" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Verstuur</button>
+        </form>
+    </section>
+
+      <!-- Kaart met markering om een locatie aan te duiden -->
+      <section id="location">
+          <h2 class="mt-4">Onze Locatie</h2>
+          <iframe class="text-center mijnblauwrandje" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1439.4729609972474!2d4.413448880224602!3d51.23042860631823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3f1df94eb28a5%3A0x39934ed1372329aa!2sAP%20Hogeschool%20-%20Campus%20Spoor%20Noord%20-%20Ellermanstraat!5e0!3m2!1snl!2sbe!4v1702495629757!5m2!1snl!2sbe" width="600" height="450" style=feature:road|color:#007BFF|visibility:simplified allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
+  </div>
 
 
 
