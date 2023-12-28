@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Netflix-Noah's Mediaserver.</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="scripts/nvdstyle.css">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+        <script src="/kaartjes.js"></script>
+    </head>
+    <body>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary mt-5">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="media/wolf profielfoto.jpeg" width="45" height="45" class="d-inline-block align-top rounded" alt="mijn eigen logo" loading="lazy" href="/index.html">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent2">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index.html">Main Page</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="watismediaserver.html">wat is een mediaserver?</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                  eigen mediaservers
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                  <li><a class="dropdown-item" href="/plex.html">Plex</a></li>
+                  <li><a class="dropdown-item" href="/jellyfin.html">Jellyfin</a></li>
+                  <li><a class="dropdown-item" href="/emby.html">Emby</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  grote spelers
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                  <li><a class="dropdown-item" href="/netflix.html">Netflix</a></li>
+                  <li><a class="dropdown-item" href="/disneyplus.html">Disney plus</a></li>
+                  <li><a class="dropdown-item" href="/streamz.html">Streamz</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/eigenspullen.html" tabindex="-1" aria-disabled="false">mijn installatie</a>
+              </li>
+              <li class="nav-item">
+                <a class=nav-link href="/contact.html" tabindex="-1">contacteer me </a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Zoeken" spellcheck="false" data-ms-editor="true">
+              </form>
+     </nav>
+
+  <!-- Hoofdinhoud -->
+  <div class="container mt-4">
+    <a href="#">
+        <img src="media/netflix/netflix_logo.png" width="200" height="200" class="d-inline-block align-top rounded" alt="Netflix Logo" loading="lazy">
+    </a>
+    <h1>Ontdek de Wereld van Netflix</h1>
+    <p>Netflix is een van de meest populaire streamingdiensten ter wereld. Hieronder vind je interessante feiten en vergelijkingen met andere streamingdiensten.</p>
+</div>
+
+<!-- Informatie over Netflix -->
+<div class="container mt-4">
+    <h2>Wat is Netflix?</h2>
+    <p>Netflix is een streamingdienst waarmee je onbeperkt films, tv-series, documentaires en meer kunt kijken op verschillende apparaten. De dienst heeft een uitgebreide bibliotheek met content in verschillende genres.</p>
+</div>
+
+<!-- Prijsvergelijking met andere diensten -->
+<div class="container mt-4">
+    <h2>Vergelijking met Andere Streamingdiensten</h2>
+    <p>Er zijn verschillende streamingdiensten beschikbaar, waaronder ook zelfgehoste oplossingen zoals Jellyfin. Hier is een beknopte vergelijking:</p>
+
+    <ul>
+        <li><strong>Netflix:</strong> Betaalde dienst met een breed scala aan content. Maandelijkse abonnementskosten variëren op basis van het gekozen abonnement.</li>
+        <li><strong>Jellyfin:</strong> Zelfgehoste, open-source mediaserver. Gratis te gebruiken, maar vereist technische knowhow om op te zetten en te onderhouden.</li>
+    </ul>
+</div>
+
+<!-- Prijzen en Opties van Netflix -->
+<div class="container mt-4">
+    <h2>Prijzen en Opties van Netflix</h2>
+    <p>Netflix biedt verschillende abonnementsniveaus met verschillende prijzen en functies:</p>
+
+    <ul>
+        <li><strong>Basisabonnement:</strong> Beperkt tot één scherm tegelijk, standaarddefinitie.</li>
+        <li><strong>Standaardabonnement:</strong> Twee schermen tegelijk, HD-kwaliteit beschikbaar.</li>
+        <li><strong>Premiumabonnement:</strong> Vier schermen tegelijk, Ultra HD-kwaliteit beschikbaar.</li>
+    </ul>
+
+    <p>De prijzen variëren afhankelijk van het land en kunnen periodiek veranderen.</p>
+</div>
+
+<!-- Delen van Accounts -->
+<div class="container mt-4">
+    <h2>Accountdelen en Het Gedoe Eromheen</h2>
+    <p>Een veelbesproken onderwerp is het delen van Netflix-accounts. Hoewel Netflix officieel het delen van wachtwoorden ontmoedigt, is het een veelvoorkomende praktijk.</p>
+    <p>Netflix staat toe dat een abonnement op meerdere apparaten wordt bekeken, maar het gelijktijdig bekijken op meerdere schermen is beperkt door het gekozen abonnement. Het delen van accounts buiten het gezin kan leiden tot problemen met gelijktijdige weergave.</p>
+</div>
+
+<!-- Wat zijn Netflix Originals? -->
+<div class="container mt-4">
+    <h2>Netflix Originals</h2>
+    <p>Netflix Originals zijn exclusieve films, series en documentaires die speciaal voor Netflix zijn geproduceerd. Deze originele content is vaak bekroond en biedt unieke verhalen die je alleen op Netflix kunt vinden.</p>
+</div>
+
+<!-- Foto's van Netflix -->
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-4">
+            <img class="img-fluid" src="media/netflix/netflix-keuzescherm.jpg" alt="Netflix Interface">
+        </div>
+        <div class="col-md-4">
+            <img class="img-fluid" src="media/netflix/netflix-originals-header.jpeg" alt="Netflix Originals">
+        </div>
+        <!-- Voeg meer foto's toe indien nodig -->
+    </div>
+</div>
+
+<!-- Leaflet Kaartsectie -->
+<div class="container mt-4">
+    <h2>bekijk het hoofdkantoor van Netflix</h2>
+    <div id="netflix-map" style="height: 600px;"></div>
+</div>
+<div style="height: 50px;"></div>
+
+<!-- JavaScript en Bootstrap-scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<!-- Voeg Leaflet scripts toe voor kaartfunctionaliteit -->
+</body>
+</html>

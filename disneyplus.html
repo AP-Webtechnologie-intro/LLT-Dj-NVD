@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disney+-Noah's Mediaserver.</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="scripts/nvdstyle.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <script src="/kaartjes.js"></script>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mt-5">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="media/wolf profielfoto.jpeg" width="45" height="45" class="d-inline-block align-top rounded" alt="mijn eigen logo" loading="lazy" href="/index.html">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent2">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index.html">Main Page</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="watismediaserver.html">wat is een mediaserver?</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                  eigen mediaservers
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                  <li><a class="dropdown-item" href="/plex.html">Plex</a></li>
+                  <li><a class="dropdown-item" href="/jellyfin.html">Jellyfin</a></li>
+                  <li><a class="dropdown-item" href="/emby.html">Emby</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  grote spelers
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                  <li><a class="dropdown-item" href="/netflix.html">Netflix</a></li>
+                  <li><a class="dropdown-item" href="/disneyplus.html">Disney plus</a></li>
+                  <li><a class="dropdown-item" href="/streamz.html">Streamz</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/eigenspullen.html" tabindex="-1" aria-disabled="false">mijn installatie</a>
+              </li>
+              <li class="nav-item">
+                <a class=nav-link href="/contact.html" tabindex="-1">contacteer me </a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Zoeken" spellcheck="false" data-ms-editor="true">
+              </form>
+     </nav>
+
+    <!-- Hoofdinhoud -->
+    <div class="container mt-4">
+        <a href="#">
+            <img src="media/disneyplus/disneyplus-logo.png" width="150" height="100" class="d-inline-block align-top rounded" alt="Disney+ Logo" loading="lazy">
+        </a>
+        <h1>Ontdek de Wereld van Disney+</h1>
+        <p>Disney+ is een populaire streamingdienst met een schat aan Disney-, Pixar-, Marvel-, Star Wars- en National Geographic-content. Hieronder vind je interessante feiten en vergelijkingen met andere streamingdiensten.</p>
+    </div>
+
+    <!-- Informatie over Disney+ -->
+    <div class="container mt-4">
+        <h2>Wat is Disney+?</h2>
+        <p>Disney+ is een streamingdienst die een uitgebreide bibliotheek van films en tv-series aanbiedt, waaronder geliefde titels van Disney, Pixar, Marvel, Star Wars en National Geographic.</p>
+    </div>
+
+    <!-- Prijsvergelijking met andere diensten -->
+    <div class="container mt-4">
+        <h2>Vergelijking met Andere Streamingdiensten</h2>
+        <p>Er zijn verschillende streamingdiensten beschikbaar. Hier is een beknopte vergelijking met Netflix:</p>
+
+        <ul>
+            <li><strong>Disney+:</strong> Betaalde dienst met een focus op familie- en kindvriendelijke content.</li>
+            <li><strong>Netflix:</strong> Biedt een breed scala aan content voor alle leeftijden, inclusief original series en films.</li>
+        </ul>
+    </div>
+
+    <!-- Prijzen en Opties van Disney+ -->
+    <div class="container mt-4">
+        <h2>Prijzen en Opties van Disney+</h2>
+        <p>Disney+ biedt abonnementsplannen met verschillende prijzen en functies:</p>
+
+        <ul>
+            <li><strong>Standaardabonnement:</strong> Toegang tot alle content op één scherm tegelijk.</li>
+            <li><strong>Bundle:</strong> Disney+, Hulu en ESPN+ in één bundel.</li>
+        </ul>
+
+        <p>De prijzen variëren en kunnen afhankelijk zijn van de regio.</p>
+    </div>
+
+    <!-- Delen van Accounts -->
+    <div class="container mt-4">
+        <h2>Accountdelen en Het Gedoe Eromheen</h2>
+        <p>Disney+ staat het delen van accounts toe, maar beperkt het aantal gelijktijdige streams per account. Het delen van accounts buiten het gezin kan leiden tot problemen met gelijktijdige weergave.</p>
+    </div>
+
+    <!-- Wat zijn Disney+ Originals? -->
+    <div class="container mt-4">
+        <h2>Disney+ Originals</h2>
+        <p>Disney+ Originals zijn exclusieve series en films die speciaal voor Disney+ zijn geproduceerd. Dit omvat nieuwe verhalen binnen het Star Wars- en Marvel-universum, evenals originele animaties en documentaires.</p>
+    </div>
+
+   <!-- Foto's van Disney+ -->
+   <div class="container mt-4">
+    <div class="row">
+        <div class="col-md-4">
+            <img class="img-fluid" src="media/disneyplus/disneyplus-interface.jpg" alt="Disney+ Interface">
+        </div>
+        <div class="col-md-4">
+            <img class="img-fluid" src="media/disneyplus/disneyplus-populair.jpg" alt="Disney+ Originals">
+        </div>
+        <!-- Voeg meer foto's toe indien nodig -->
+    </div>
+</div>
+
+<!-- Vakantie naar Disneyland Parijs -->
+<div class="container mt-4">
+    <h2>Vakantie naar Disneyland Parijs</h2>
+    <p>Deze zomer ben ik met mijn vriendin naar Disneyland Parijs geweest. Het was een betoverende ervaring vol magie en plezier. We hebben genoten van de iconische attracties, betoverende shows en ontmoetingen met geliefde Disney-personages.</p>
+</div>
+
+<!-- Foto's van de vakantie -->
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-4">
+            <img class="img-fluid" src="media/Disneyplus/dlp-trip-1.jpg" alt="Vakantiefoto 1">
+        </div>
+        <div class="col-md-4">
+            <img class="img-fluid" src="media/Disneyplus/dlp-trip-2.jpg" alt="Vakantiefoto 2">
+        </div>
+        <div class="col-md-4">
+            <img class="img-fluid" src="media/Disneyplus/dlp-trip-3.jpg" alt="Vakantiefoto 3">
+        </div>
+    </div>
+</div>
+
+<!-- Leaflet Kaartsectie -->
+<div class="container mt-4">
+    <h2>Ontdek Disneyland Parijs</h2>
+    <p>Ontdek hier de magie van Disneyland Parijs waar we deze zomer een geweldige tijd hebben gehad.</p>
+    <div id="dlp-map" style="height: 400px;"></div>
+</div>
+<div style="height: 50px;"></div>
+
+<!-- JavaScript en Bootstrap-scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<!-- Voeg Leaflet scripts toe voor kaartfunctionaliteit -->
+</body>
+</html>
