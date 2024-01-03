@@ -42,14 +42,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
 //hieronder de kaart voor telenet
 document.addEventListener('DOMContentLoaded', function () {
-    var map = L.map('telenet-map').setView([0.000, 0.000], 10);
+    var map = L.map('telenet-map').setView([51.03533, 4.48306], 16);
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '© OpenStreetMap-bijdragers'
     }).addTo(map);
 
-    L.marker([0.000, 0.000]).addTo(map)
-    .bindPopup('<div style="text-align: center;">Disneyland Parijs<br>Magische plek waar we deze zomer zijn geweest!</div>')
+    L.marker([51.03534, 4.48351]).addTo(map)
+    .bindPopup('<div style="text-align: center;">Telenet HQ<br>Al jou centjes worden omgetoverd in miserie!!</div>')
     .openPopup();
 });
 

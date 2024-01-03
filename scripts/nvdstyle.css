@@ -14,3 +14,23 @@ h4 {
   color: #6c757d; /* Grijze tekstkleur voor H4 */
   font-size: 1.25rem; /* Aangepaste tekstgrootte voor H4 */
 }
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}

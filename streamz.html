@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>streamz-Noah's Mediaserver.</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="scripts/nvdstyle.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <script src="scripts/kaartjes.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary mt-5">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="media/wolf profielfoto.jpeg" width="45" height="45" class="d-inline-block align-top rounded" alt="mijn eigen logo" loading="lazy" href="/index.html">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent2">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/index.html">Main Page</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="watismediaserver.html">wat is een mediaserver?</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+              eigen mediaservers
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+              <li><a class="dropdown-item" href="/plex.html">Plex</a></li>
+              <li><a class="dropdown-item" href="/jellyfin.html">Jellyfin</a></li>
+              <li><a class="dropdown-item" href="/emby.html">Emby</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              grote spelers
+            </a>
+            <ul class="dropdown-menu active" aria-labelledby="navbarDropdown2">
+              <li><a class="dropdown-item" href="/netflix.html">Netflix</a></li>
+              <li><a class="dropdown-item" href="/disneyplus.html">Disney plus</a></li>
+              <li><a class="dropdown-item active" href="/streamz.html">Streamz</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/eigenspullen.html" tabindex="-1" aria-disabled="false">mijn installatie</a>
+          </li>
+          <li class="nav-item">
+            <a class=nav-link href="/contact.html" tabindex="-1">contacteer me </a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Zoeken" spellcheck="false" data-ms-editor="true">
+          </form>
+ </nav>
+
+    <!-- Hoofdinhoud -->
+    <div class="container mt-4">
+        <a href="#">
+            <img src="media/Streamz/streamzlogo.png" width="180" height="100" class="d-inline-block align-top rounded" alt="Streamz Logo" loading="lazy">
+        </a>
+        <h1>Ontdek de Wereld van Streamz</h1>
+        <p>Streamz is een populaire streamingdienst in Vlaanderen met een divers aanbod van lokale en internationale content. Hieronder vind je interessante feiten en vergelijkingen met andere streamingdiensten.</p>
+    </div>
+
+    <!-- Informatie over Streamz -->
+    <div class="container mt-4">
+        <h2>Wat is Streamz?</h2>
+        <p>Streamz is een Vlaamse streamingdienst die een uitgebreide bibliotheek van films, series en Vlaamse content aanbiedt.</p>
+    </div>
+
+    <!-- Streamz+ -->
+    <div class="container mt-4">
+        <h2>Streamz+</h2>
+        <p>Streamz+ is het premium abonnement van Streamz, waarmee je toegang krijgt tot extra functies en exclusieve content.</p>
+    </div>
+
+    <!-- Vergelijking met andere diensten -->
+    <div class="container mt-4">
+        <h2>Vergelijking met Andere Streamingdiensten</h2>
+        <p>Streamz concurreert met andere streamingdiensten zoals Netflix en Disney+. Hier is een beknopte vergelijking:</p>
+
+        <ul>
+            <li><strong>Streamz:</strong> Focus op Vlaamse content en lokale producties.</li>
+            <li><strong>Netflix:</strong> Biedt een breed scala aan internationale content, inclusief original series en films.</li>
+            <li><strong>Disney+:</strong> Gericht op familie- en kindvriendelijke content met Disney, Pixar, Marvel en Star Wars.</li>
+        </ul>
+    </div>
+
+    <!-- Prijzen en Opties van Streamz -->
+    <div class="container mt-4">
+        <h2>Prijzen en Opties van Streamz</h2>
+        <p>Streamz biedt abonnementsplannen met verschillende prijzen en functies. Streamz+ voegt extra premium content toe aan het aanbod.</p>
+
+        <ul>
+            <li><strong>Standaardabonnement:</strong> Toegang tot alle basiscontent.</li>
+            <li><strong>Streamz+:</strong> Premium abonnement met exclusieve content.</li>
+        </ul>
+
+        <p>De prijzen variëren en kunnen afhankelijk zijn van de gekozen opties.</p>
+    </div>
+
+    <!-- Delen van Accounts -->
+    <div class="container mt-4">
+        <h2>Accountdelen bij Streamz</h2>
+        <p>Streamz staat mogelijk het delen van accounts toe, maar het kan beperkt zijn in het aantal gelijktijdige streams per account.</p>
+    </div>
+
+    <!-- Originals en Exclusieve Content -->
+    <div class="container mt-4">
+        <h2>Streamz Originals</h2>
+        <p>Streamz Originals omvat exclusieve series en films die speciaal voor Streamz zijn geproduceerd, waaronder Vlaamse producties en internationale samenwerkingen.</p>
+    </div>
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-4">
+            <img class="img-fluid" src="media/Streamz/fairtrade2streamz.png" alt="Disney+ Interface">
+        </div>
+        <div class="col-md-4">
+            <img class="img-fluid" src="media/Disneyplus/disneyplus-populair.jpg" alt="Disney+ Originals">
+        </div>
+        <!-- Voeg meer foto's toe indien nodig -->
+
+    <!-- Telenet Kaartsectie -->
+    <div class="container mt-4">
+        <h2>Telenet Belgie</h2>
+        <p>Ontdek hier waar telenet ligt<br> kaart van Telenet.</p>
+        <div id="telenet-map" style="height: 500px;"></div>
+    </div>
+    <div style="height: 50px;"></div>
+
+    <!-- JavaScript en Bootstrap-scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <!-- Voeg Leaflet scripts toe voor kaartfunctionaliteit -->
+</body>
+</html>
