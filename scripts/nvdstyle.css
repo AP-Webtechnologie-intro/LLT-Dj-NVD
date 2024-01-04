@@ -34,3 +34,8 @@ th, td {
   text-align: left;
   padding: 8px;
 }
+
+.PosterContainer img {
+  max-width: 100%; /* Zorgt ervoor dat de afbeelding responsief blijft */
+  max-height: 250vh; /* Zorgt ervoor dat de afbeelding niet hoger is dan het scherm */
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disney+-Noah's Mediaserver.</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="scripts/nvdstyle.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <script defer src="scripts/kaartjes.js"></script>
+    <script defer src="scripts/randomposter.js"></script>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mt-5">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="media/wolf profielfoto.jpeg" width="45" height="45" class="d-inline-block align-top rounded" alt="mijn eigen logo" loading="lazy" href="/index.html">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent2">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/index.html">Main Page</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="watismediaserver.html">wat is een mediaserver?</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                  eigen mediaservers
+                </a>
+                <ul class="dropdown-menu active" aria-labelledby="navbarDropdown2">
+                  <li><a class="dropdown-item active" href="/plex.html">Plex</a></li>
+                  <li><a class="dropdown-item" href="/jellyfin.html">Jellyfin</a></li>
+                  <li><a class="dropdown-item" href="/emby.html">Emby</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  grote spelers
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                  <li><a class="dropdown-item" href="/netflix.html">Netflix</a></li>
+                  <li><a class="dropdown-item" href="/disneyplus.html">Disney plus</a></li>
+                  <li><a class="dropdown-item" href="/hbomax.html">HBO Max</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/eigenspullen.html" tabindex="-1" aria-disabled="false">mijn installatie</a>
+              </li>
+              <li class="nav-item">
+                <a class=nav-link href="/contact.html" tabindex="-1">contacteer me </a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Zoeken" spellcheck="false" data-ms-editor="true">
+              </form>
+     </nav>
+
+    <!-- Hoofdinhoud -->
+    <div class="container mt-4">
+        <a href="#">
+            <img src="media/plex/plex-logo.png" width="150" height="80" class="d-inline-block align-top rounded" alt="Plex Logo" loading="lazy">
+        </a>
+        <h1>Ontdek de Wereld van Plex</h1>
+        <p>Plex is een krachtige mediaserver waarmee je je eigen media kunt beheren, streamen en delen. Hier vind je informatie over Plex-abonnementen en het hosten van je eigen media.</p>
+    </div>
+
+    <!-- Informatie over Plex -->
+    <div class="container mt-4">
+        <h2>Wat is Plex?</h2>
+        <p>Plex is een mediaserverplatform waarmee gebruikers hun eigen media, zoals films, tv-shows, foto's en muziek, kunnen organiseren en streamen naar verschillende apparaten.</p>
+    </div>
+
+    <!-- Plex Pass-abonnementen -->
+    <div class="container mt-4">
+        <h2>Plex Pass-abonnementen</h2>
+        <p>Plex biedt Plex Pass-abonnementen met extra functies, zoals offline toegang tot media, het bekijken en opnemen van live-tv, en meer.</p>
+    
+      <table>
+          <thead>
+              <tr>
+                  <th>Abonnement</th>
+                  <th>Prijs per maand</th>
+                  <th>Prijs per jaar </th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td><strong>Plex Pass</strong></td>
+                  <td>€4,99 / maand</td>
+                  <td>€39,99 / jaar</td>
+              </tr>
+              <tr>
+                  <td><strong>Plex Pass (Lifetime)</strong></td>
+                  <td></td>
+                  <td>€119,99 (eenmalige betaling)</td>
+              </tr>
+          </tbody>
+      </table>
+    
+      <p>De prijzen en functies kunnen variëren, dus controleer de officiële Plex-website voor de meest actuele informatie.</p>
+    </div>
+
+    <!-- Eigen media hosten -->
+    <div class="container mt-4">
+        <h2>Je Eigen Media Hosten met Plex</h2>
+        <p>Met Plex kun je je eigen media hosten, waaronder films, tv-shows, foto's en muziek. Organiseer je bibliotheek en stream je content naar al je apparaten.</p>
+    </div>
+
+    <!-- Foto's van Plex -->
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-6">
+                <img class="img-fluid" src="media/plex/plex-interface.png" alt="Plex Interface">
+            </div>
+            <div class="col-md-6">
+                <img class="img-fluid" src="media/plex/plex-android-material.jpg" alt="Plex op Mobiel">
+            </div>
+            <!-- Voeg meer foto's toe indien nodig -->
+        </div>
+    </div>
+
+    <div class="container mt-4">
+        <h2>waarom jij voor plex zou moeten kiezen</h2>
+        <p>als jij ook plex op je server zou installeren, kan je super veel films (legaal!) kijken, zoals deze bijvoorbeeld</p>
+    </div>
+
+<!-- Magie van mijn API -->
+<div id="PosterContainer" class="container d-flex justify-content-center align-items-center mt-4">
+    <!-- De filmposter wordt hier ingevoegd door JavaScript -->
+</div>
+<div id="MovieInfoContainer" class="container mt-4"></div>
+
+<div style="height: 50px;"></div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
