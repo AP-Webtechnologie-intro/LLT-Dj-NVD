@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disney+-Noah's Mediaserver.</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="scripts/nvdstyle.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <script defer src="scripts/kaartjes.js"></script>
+    <script defer src="scripts/randomposter.js"></script>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mt-5">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="media/wolf profielfoto.jpeg" width="45" height="45" class="d-inline-block align-top rounded" alt="mijn eigen logo" loading="lazy" href="/index.html">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent2">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/index.html">Main Page</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="watismediaserver.html">wat is een mediaserver?</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                  eigen mediaservers
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                  <li><a class="dropdown-item" href="/plex.html">Plex</a></li>
+                  <li><a class="dropdown-item" href="/jellyfin.html">Jellyfin</a></li>
+                  <li><a class="dropdown-item active" href="/emby.html">Emby</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  grote spelers
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                  <li><a class="dropdown-item" href="/netflix.html">Netflix</a></li>
+                  <li><a class="dropdown-item" href="/disneyplus.html">Disney plus</a></li>
+                  <li><a class="dropdown-item" href="/hbomax.html">HBO Max</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/eigenspullen.html" tabindex="-1" aria-disabled="false">mijn installatie</a>
+              </li>
+              <li class="nav-item">
+                <a class=nav-link href="/contact.html" tabindex="-1">contacteer me </a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Zoeken" spellcheck="false" data-ms-editor="true">
+              </form>
+     </nav>
+
+    <!-- Hoofdinhoud -->
+    <div class="container mt-4">
+        <a href="#">
+            <img src="media/Emby/emby-logo.png" width="150" height="60" class="d-inline-block align-top rounded" alt="Emby Logo" loading="lazy">
+        </a>
+        <h1>Ontdek de Wereld van Emby</h1>
+        <p>Emby is een mediaserverplatform waarmee je je eigen media kunt organiseren, streamen en delen. Hier vind je informatie over Emby en hoe het zich onderscheidt van andere mediaservers.</p>
+    </div>
+
+    <!-- Informatie over Emby -->
+    <div class="container mt-4">
+        <h2>Wat is Emby?</h2>
+        <p>Emby is een mediaserver waarmee je toegang hebt tot je media vanaf elk apparaat. Het biedt functies zoals het organiseren van content, streaming en het delen van media met anderen.</p>
+    </div>
+
+    <!-- Vergelijking met andere mediaservers -->
+    <div class="container mt-4">
+        <h2>Vergelijking met Andere Mediaservers</h2>
+        <p>Emby wordt vaak vergeleken met andere mediaservers zoals Plex en Jellyfin. Hier zijn enkele kenmerken:</p>
+
+        <ul>
+            <li><strong>Plex:</strong> Proprietary software, Plex Pass-abonnement voor premium functies.</li>
+            <li><strong>Jellyfin:</strong> Open-source, gratis mediaserver zonder abonnementskosten.</li>
+        </ul>
+    </div>
+
+    <!-- Emby-abonnementen -->
+    <div class="container mt-4">
+        <h2>Emby-abonnementen</h2>
+        <p>Emby biedt zowel gratis als betaalde abonnementsopties. Het gratis abonnement bevat veel functies, terwijl Emby Premiere extra functies toevoegt.</p>
+    
+      <table>
+          <thead>
+              <tr>
+                  <th>Abonnement</th>
+                  <th>Prijs per maand</th>
+                  <th>Prijs per jaar </th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td><strong>Emby Premiere</strong></td>
+                  <td>$4,99 / maand</td>
+                  <td>$54 / jaar</td>
+              </tr>
+          </tbody>
+      </table>
+    
+      <p>Controleer de officiële Emby-website voor de meest actuele informatie over prijzen en functies.</p>
+    </div>
+
+    <!-- Eigen media hosten -->
+    <div class="container mt-4">
+        <h2>Je Eigen Media Hosten met Emby</h2>
+        <p>Met Emby kun je je eigen media hosten en organiseren. Krijg toegang tot je films, tv-shows, muziek en foto's vanaf elk apparaat.</p>
+    </div>
+
+    <!-- Foto's van Emby -->
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-6">
+                <img class="img-fluid" src="media/Emby/emby-interface.png" alt="Emby Interface">
+            </div>
+            <div class="col-md-6">
+                <img class="img-fluid" src="media/Emby/emby-mobile.jpg" alt="Emby op Mobiel">
+            </div>
+            <!-- Voeg meer foto's toe indien nodig -->
+        </div>
+    </div>
+
+    <div class="container mt-4">
+        <h2>waarom jij voor Emby zou moeten kiezen</h2>
+        <p>Ontdek hieronder een willekeurige filmposter uit mijn Emby-collectie. Let op, de onderstaande gegevens worden opgehaald door een externe partner en kunnen vertraagd reageren.</p>
+    </div>
+
+    <!-- Magie van mijn API -->
+<div id="PosterContainer" class="container d-flex justify-content-center align-items-center mt-4">
+  <!-- De filmposter wordt hier ingevoegd door JavaScript -->
+</div>
+<div style="height: 100px;" id="MovieInfoContainer" class="container mt-4"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
