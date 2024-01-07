@@ -54,3 +54,15 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
+//hieronder de kaart voor mijn huis
+document.addEventListener('DOMContentLoaded', function () {
+    var map = L.map('huis-map').setView([51.26362, 4.78594], 13);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '© OpenStreetMap-bijdragers'
+    }).addTo(map);
+
+    L.marker([51.25603, 4.79463]).addTo(map)
+    .bindPopup('<div style="text-align: center;">Home<br>Bye privacy :/</div>')
+    .openPopup();
+});

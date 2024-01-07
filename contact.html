@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Noah's Mediaserver.</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="scripts/nvdstyle.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <script defer src="/scripts/kaartjes.js"></script>
+    <script defer src="scripts/randomposter.js"></script>
+    <link rel="icon" href="media/favicon.ico" type="image/x-icon">
 </head>
+
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary mt-5">
     <div class="container-fluid">
@@ -56,57 +61,108 @@
           </form>
  </nav>
  
-    <H1 class="center">contactpagina </H1>
-    <div class="container mt-4">
-      <h1 class="text-center">Contacteer ons</h1>
+  <!-- Contactpagina -->
+  <div class="container mt-4">
+    <h1 class="text-center">Contacteer ons</h1>
 
-      <!-- Contactformulier voor de 'admin' -->
-      <section id="admin-contact">
-          <h2 class="mt-4">Contacteer de Admin</h2>
+    <!-- Formulier voor de webdesigner en admin naast elkaar -->
+    <div class="row">
+      <!-- Webdesigner formulier (links) -->
+      <div class="col-md-6">
+        <section id="webdesigner-contact">
+          <h2 class="mt-4">Contacteer de Webdesigner</h2>
           <form>
-              <!-- ... (formulierinvoervelden voor de 'admin') ... -->
-          </form>
-      </section>
-
-      <!-- Contactformulier voor de 'webdesigner' -->
-      <section id="webdesigner-contact">
-        <h2 class="mt-4">Contacteer de Webdesigner</h2>
-        <form>
             <div class="mb-3">
-                <label for="webdesigner-naam" class="form-label">Naam</label>
-                <input type="text" class="form-control" id="webdesigner-naam" required>
+              <label for="webdesigner-naam" class="form-label">Naam</label>
+              <input type="text" class="form-control" id="webdesigner-naam" required>
             </div>
             <div class="mb-3">
-                <label for="webdesigner-email" class="form-label">E-mailadres</label>
-                <input type="email" class="form-control" id="webdesigner-email" required>
+              <label for="webdesigner-email" class="form-label">E-mailadres</label>
+              <input type="email" class="form-control" id="webdesigner-email" required>
             </div>
             <div class="mb-3">
-                <label for="webdesigner-bericht" class="form-label">Bericht</label>
-                <textarea class="form-control" id="webdesigner-bericht" rows="5" required></textarea>
+              <label for="webdesigner-telefoon" class="form-label">Telefoonnummer</label>
+              <input type="tel" class="form-control" id="webdesigner-telefoon">
+            </div>
+            <div class="mb-3">
+              <label for="webdesigner-reden" class="form-label">Reden van contact</label>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="webdesigner-reden" id="webdesigner-reden1" value="vraag" checked>
+                <label class="form-check-label" for="webdesigner-reden1">Vraag</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="webdesigner-reden" id="webdesigner-reden2" value="offerte">
+                <label class="form-check-label" for="webdesigner-reden2">Offerte</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="webdesigner-reden" id="webdesigner-reden3" value="andere">
+                <label class="form-check-label" for="webdesigner-reden3">Andere</label>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="webdesigner-bericht" class="form-label">Bericht</label>
+              <textarea class="form-control" id="webdesigner-bericht" rows="5" required></textarea>
             </div>
             <button type="submit" class="btn btn-primary">Verstuur</button>
-        </form>
-    </section>
+          </form>
+        </section>
+      </div>
 
-      <!-- Kaart met markering om een locatie aan te duiden -->
-      <section id="location">
-          <h2 class="mt-4">Onze Locatie</h2>
-          <iframe class="text-center mijnblauwrandje" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1439.4729609972474!2d4.413448880224602!3d51.23042860631823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3f1df94eb28a5%3A0x39934ed1372329aa!2sAP%20Hogeschool%20-%20Campus%20Spoor%20Noord%20-%20Ellermanstraat!5e0!3m2!1snl!2sbe!4v1702495629757!5m2!1snl!2sbe" width="600" height="450" style=feature:road|color:#007BFF|visibility:simplified allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </section>
+      <!-- Admin formulier (rechts) -->
+      <div class="col-md-6">
+        <section id="admin-contact">
+          <h2 class="mt-4">Contacteer de Administrator</h2>
+          <form>
+            <div class="mb-3">
+              <label for="admin-naam" class="form-label">Naam</label>
+              <input type="text" class="form-control" id="admin-naam" required>
+            </div>
+            <div class="mb-3">
+              <label for="admin-email" class="form-label">E-mailadres</label>
+              <input type="email" class="form-control" id="admin-email" required>
+            </div>
+            <div class="mb-3">
+              <label for="admin-telefoon" class="form-label">Telefoonnummer</label>
+              <input type="tel" class="form-control" id="admin-telefoon">
+            </div>
+            <div class="mb-3">
+              <label for="admin-reden" class="form-label">Reden van contact</label>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="admin-reden" id="admin-reden1" value="probleem" checked>
+                <label class="form-check-label" for="admin-reden1">Probleem melden</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="admin-reden" id="admin-reden2" value="opmerking">
+                <label class="form-check-label" for="admin-reden2">Opmerking geven</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="admin-reden" id="admin-reden3" value="andere">
+                <label class="form-check-label" for="admin-reden3">Andere</label>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="admin-bericht" class="form-label">Bericht</label>
+              <textarea class="form-control" id="admin-bericht" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Verstuur</button>
+          </form>
+        </section>
+      </div>
+    </div>
   </div>
 
+<!-- Leaflet Kaartsectie -->
+<div class="container mt-4">
+  <h2>Deze website word gehost op mijn server.</h2>
+  <p>Tot ziens privacy! hier draait mijn server dus.</p>
+  <div id="huis-map" style="height: 400px;"></div>
+</div>
+<div style="height: 50px;"></div>
 
 
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 
-
-
-
-
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
