@@ -1,4 +1,4 @@
-//hieronder de kaart voor disneyland
+//kaart van disney
 document.addEventListener('DOMContentLoaded', function () {
     var map = L.map('dlp-map').setView([48.87262, 2.77677], 17);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-//hieronder de kaart voor de netflix pagina
+//kaart van netflix
 document.addEventListener('DOMContentLoaded', function () {
     var map = L.map('netflix-map').setView([37.25658, -121.96426], 16);
 
@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 });
 
-//hieronder de kaart voor telenet
+//haart van telenet
 document.addEventListener('DOMContentLoaded', function () {
     var map = L.map('telenet-map').setView([51.03533, 4.48306], 16);
 
@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-//hieronder de kaart voor mijn huis
+//mijn kaart
 document.addEventListener('DOMContentLoaded', function () {
     var map = L.map('huis-map').setView([51.26362, 4.78594], 13);
 
